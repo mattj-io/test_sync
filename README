@@ -1,0 +1,10 @@
+Python script to update Content Index board tasks in Asana with the tags that are in production in WP.
+
+Set your ASANA_ACCESS_TOKEN environment variable to a Personal Access Token obtained in your Asana Account Settings
+eg. export ASANA_ACCESS_TOKEN=my_access_token
+
+Creates an output log ( output.log ) containing time stamps from the previous run, and will only update tasks modified since the last run
+
+Any URL's which are not correct will also be logged to this file
+
+If you want to re-create all tags, just delete the output log and re-run
